@@ -5,5 +5,5 @@ django-dotenv
 psycopg2-binary
 django-storages
 boto3
-react==17.0.2
+react
 yarn==1.22.17
