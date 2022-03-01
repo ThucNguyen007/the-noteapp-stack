@@ -3,7 +3,7 @@ setup:
     - plan: heroku-postgresql
 build:
   docker:
-    web: /todoapp3/Dockerfile
+    web: Dockerfile
 release:
   image: web
   command:
