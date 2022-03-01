@@ -84,7 +84,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-  'http://localhost:3000',
+    'https://desolate-sea-24357.herokuapp.com/'
+    
 ]
 
 JWT_AUTH = {
