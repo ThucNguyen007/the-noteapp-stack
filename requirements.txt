@@ -6,4 +6,4 @@ psycopg2-binary
 django-storages
 boto3
 react
-yarn==1.22.17
+yarn
