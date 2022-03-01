@@ -1,0 +1,9 @@
+django>=3.2,<4.0
+gunicorn
+requests
+django-dotenv
+psycopg2-binary
+django-storages
+boto3
+react==17.02
+yarn==1.22.17
