@@ -3,11 +3,11 @@ setup:
     - plan: heroku-postgresql
 build:
   docker:
-    web: Dockerfile
+    web: /todoapp3/Dockerfile
 release:
   image: web
   command:
     - python manage.py collectstatic --noinput
 
 run:
-  web: gunicorn backend/backbackend.wsgi:application --bind 0.0.0.0:$PORT
+  web: gunicorn backbackend.wsgi:application --bind 0.0.0.0:$PORT
