@@ -84,7 +84,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-    'https://desolate-sea-24357.herokuapp.com/'
+    'http://localhost:3000',
+    # 'https://desolate-sea-24357.herokuapp.com/',
     
 ]
 
